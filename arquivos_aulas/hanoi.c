@@ -4,7 +4,7 @@
 void torreDeHanoi(int n, char origem, char destino, char auxiliar) 
 { 
     if (n == 1) 
-    { 
+    {
         printf("\n Mova disco 1 da torre %c para torre %c", origem, destino); 
         return; 
     } 
