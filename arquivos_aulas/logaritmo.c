@@ -10,7 +10,7 @@ int main(void)
     scanf("%lf", &n1);
     log_natural = log(n1);
     log_base10 = log10(n1);
-    printf("Log natural: %lf\n", log_natural);
+    printf("Log natural é: %lf\n", log_natural);
     printf("Log base10: %lf\n", log_base10);
     return 0;
 }
