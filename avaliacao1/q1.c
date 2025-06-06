@@ -11,7 +11,7 @@ int main(){
     if( n1 > n ){
         if(n1 % 2 == 0)
             printf("%.0f\n", pow(n1,3));
-        else
+        else 
             printf("%.0f\n", pow(n1,2));
     }else{
         printf("%d\n", n);
